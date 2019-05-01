@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--external-path 对应的是Environment.getExternalStorageDirectory()-->
+    <!--name 我的理解是Uri上的名字-->
+    <!--path 就是图片存储的真实路径-->
+    <!--可以通过生成的Uri去理解这下值-->
+    <external-path
+        name="image"
+        path="rflash" />
+</paths>
